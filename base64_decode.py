@@ -18,5 +18,5 @@ sample_string_bytes = base64.b64decode(base64_bytes)
 sample_string = sample_string_bytes.decode("ascii") 
 
   
-
+# printing result
 print(f"Decoded string: {sample_string}") 
