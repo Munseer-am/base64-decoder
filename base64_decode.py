@@ -6,7 +6,7 @@ import base64
 # user input
 code = input('Enter base64 code: ')
  
- 
+# converting into base64
 base64_string = code
 
 base64_bytes = base64_string.encode("ascii") 
