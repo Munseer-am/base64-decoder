@@ -3,9 +3,10 @@
 # importing module base64
 import base64 
 
-  
+# user input
 code = input('Enter base64 code: ')
-  
+ 
+ 
 base64_string = code
 
 base64_bytes = base64_string.encode("ascii") 
